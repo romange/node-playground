@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/ioredis": "^4.28.10",
+    "@types/node": "^18.11.3",
+    "ioredis": "^5.2.3"
+  }
+}

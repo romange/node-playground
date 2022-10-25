@@ -2,6 +2,14 @@
   "devDependencies": {
     "@types/ioredis": "^4.28.10",
     "@types/node": "^18.11.3",
+    "@types/yargs": "^17.0.13",
     "ioredis": "^5.2.3"
+  },
+  "scripts": {
+    "app": "tsc app.ts && node app.js",
+    "scan": "tsc scan.ts && node scan.js"
+  },
+  "dependencies": {
+    "yargs": "^17.6.0"
   }
 }
